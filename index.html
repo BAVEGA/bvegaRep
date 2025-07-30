@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="index-header"> 
+            <div class="oscurecer-fondo">   
+                <section id="contenedor-flex-superior" class="contenedor-sup">
+                    <h1 id="index-h1" class="index-h1">Brian Vega</h1> <!--Mejor jerarquía, se pone en las búsquedas primero-->    
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 fixed-top" >
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sobre mí</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" aria-disabled="true">Proyectos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" aria-disabled="true">Contactos</a>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </section>
+
+                <section id="contenedor-flex-inferior" class="contenedor-inf">
+                    <h2 class="bienvenida-texto">Bienvenidos/as a mi portfolio</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro, repudiandae reprehenderit voluptate, laudantium delectus ex ipsam quidem pariatur molestias fugit dolores est expedita non quae aperiam assumenda. Sit, quos! - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro, repudiandae reprehenderit voluptate, laudantium delectus ex ipsam quidem pariatur molestias fugit dolores est expedita non quae aperiam assumenda. Sit, quos!</p>
+                    <div class="flex-botones">
+                        <a 
+                            href="https://infobae.com/" target="_blank">
+                                 <img src="./images/Git_Logo.gif" alt="Git Logo">
+                        </a>
+
+                    </div>
+                </section>              
+            </div>
+        </header>
+
+        <main>
+            <div>
+                <img class="wpLogo" src="/images/WpLogo.png" alt="">
+            </div>
+            <section>
+                <h2 class="titulos-margin">Experiencia Laboral</h2>
+                <div class="experiencia-container">
+                    <article class="experiencia-card"> <!-- Div semanticamnte no es bueno, usar DIV o SECTION-->
+                        <h3 class="text-white">G- Unit</h3> <!-- Se puede ussar article en lugar de section-->
+                        <h4 class="text-white">2025 - Presente</h4>    
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur molestias error veniam, consectetur adipisci commodi non delectus dolore nam, natus explicabo cumque vero molestiae tempore voluptate quisquam inventore? Repellat, quaerat? 
+                        </p>
+                    </article>
+                    <article class="experiencia-card"> 
+                        <h3 class="text-white">Decission Support</h3>
+                        <h4 class="text-white"> 2016 - 2025</h4>    
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur molestias error veniam, consectetur adipisci commodi non delectus dolore nam, natus explicabo cumque vero molestiae tempore voluptate quisquam inventore? Repellat, quaerat?
+                        </p>
+                    </article>
+                    <article class="experiencia-card"> 
+                        <h3 class="text-white">Colegio Da Vinci</h3>
+                        <h4 class="text-white"> 2011 - 2016</h4>    
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur molestias error veniam, consectetur adipisci commodi non delectus dolore nam, natus explicabo cumque vero molestiae tempore voluptate quisquam inventore? Repellat, quaerat?
+                        </p>
+                    </article>  
+                </div>                
+            </section>
+
+            <section>
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner" object-fit=cover>
+                            <div class="carousel-item active">
+                            <img src="./images/Termo1.jpg" class="d-block w-100" alt="..." >
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./images/Faro.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./images/Termo2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                     </div>
+            </section>
+           
+            <section id="Proyectos">
+                <h2 class="titulos-margin">Proyectos</h2>
+                <div class="proyectos-container">
+                   
+                    <section class="card-proyecto">
+                        <img src="./img/imagenProyecto.png" alt="Proyecto 1" />
+                        <h3 class="centrar-texto">Proyecto 1</h3>
+                    </section>
+                    <section class="card-proyecto">
+                        <img src="./img/imagenProyecto.png" alt="Proyecto 2" />
+                        <h3 class="centrar-texto">Proyecto 2</h3>
+                    </section>
+                    <section class="card-proyecto">
+                        <img src="./img/imagenProyecto.png" alt="Proyecto 3" />
+                        <h3 class="centrar-texto">Proyecto 3</h3>
+                    </section>
+                    <section class="card-proyecto">
+                        <img src="./img/imagenProyecto.png" alt="Proyecto 4" />
+                        <h3 class="centrar-texto">Proyecto 4</h3>
+                    </section>
+
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="centrar-texto derechos-footer text-white">
+                Todos los derechos reservados &copy;
+            </p>
+            <a href="https://www.facebook.com/" target="blank"> <!-- Agregar un targe Blank-->
+                <img src="./images/FB_Logo.png" alt="Facebook Logo"/>  <!-- ./ Se para en el la carpeta ../   TENER CARPETA RESOURCE-->  
+            </a>
+            <a href="https://x.com/" target="_blank" >
+                <img src="images/X_Logo.jpeg" alt="Twitter Logo"/>     
+            </a>
+            <a href="https://ar.linkedin.com/" target="_blank">
+                <img src="./images/LK_Logo.png" alt="LinkedIn Logo">    
+            </a>
+
+         </footer>
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,199 @@
+/*General Styles*/
+:root{
+    --colorBlanco: #FFFFFF;
+    --colorNegro:  #000000;
+    --Numero1: "1";
+    --colorExp: rgb(1, 1, 71);
+}
+
+
+*{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header Styles*/
+.index-header{background-image: url(./images/Tecno_BackGround.jpeg);
+    background-size:cover;
+    height: 95vh;
+    
+    /*background-attachment: fixed; */ /*Fijar IMG*/
+}
+
+.oscurecer-fondo {
+  position: absolute;
+  width: 100%;
+  height: 95vh;
+  background-color: #00000091;
+}
+
+
+
+/*
+.index-h1::before {
+  content: "< ";
+  color: rgb(0, 255, 255);
+  font-weight: 400;
+}
+.index-h1::after {
+  content: " />";
+  color: rgb(0, 255, 255);
+  font-weight: 400;
+}
+
+*/
+
+
+/*-----CONTENEDOR SUPERIOR /////////////////////*/
+.contenedor-sup{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 3px, solid, orange;
+    padding: 1rem;
+    
+       
+}
+
+.index-h1 {color:cornsilk;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    
+}
+
+/*-------Navegacion*/
+
+.index-header nav a{
+    border:  1.5px, solid orange;
+    border-radius: 10%;
+    padding: 0.5rem;
+    color:cornsilk;
+    
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+
+/*-----CONTENEDOR INFERIOR /////////////////////*/
+.contenedor-inf{
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px, solid, rgba(255, 255, 0, 0.24);
+    margin-top: 2px;
+    padding-bottom: 1rem;
+    height: 65vh;
+
+}
+/*-----CONTENEDOR INFERIOR TÍTULO*/
+.contenedor-inf h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+/*-----CONTENEDOR INFERIOR PÁRRAFO*/
+.contenedor-inf p{
+    width: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+
+.wpLogo{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    cursor:pointer;
+   
+}
+
+
+
+/*----Main Styles ----////////////////////////////////////////*/
+
+main {
+    margin: 2rem;
+}
+
+.titulos-margin {
+  margin-bottom: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.experiencia-container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+.experiencia-card{
+  max-width: 30rem;
+  background-color: var(--colorExp) ;
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.experiencia-card h3, h4{
+    text-align: center;
+}
+
+.experiencia-card p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+
+/*---------------------------Footer Styles*/
+.ft-img{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+}
+
+section #section1{
+    background-color: aqua;
+}
+
+
+
+
+
+/*----Media Queries ----////////////////////////////////////////*/
+
+
+@media only screen and (min-width:800px){
+
+}
+
+
+
+
